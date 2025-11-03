@@ -15,7 +15,7 @@ offset = 20
 imgSize = 300
 
 # Define labels
-labels = ["Hello", "I love you", "No", "Okay", "Please", "Thank you", "Yes"]
+labels = ["Hello", "I love you", "No", "Okay", "Please", "Thank you", "Yes","Give","Soon"]
 
 while True:
     success, img = cap.read()
@@ -75,4 +75,5 @@ while True:
 
 # Release resources
 cap.release()
+
 cv2.destroyAllWindows()
